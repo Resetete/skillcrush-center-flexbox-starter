@@ -1,0 +1,28 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-size: 16px;
+}
+
+
+body {
+  display: flex; /* activate flexbox -> all elements withing the body will be flexible elements */
+  justify-content: center; /* to center elements horizontially */
+  align-items: center; /* center elements vertically */
+  background: url('../img/wow.png') bottom center no-repeat;
+  background-size: cover;
+  font-size: 1em;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  align-items: center;
+  font-size: 4em;
+  color: #fff;
+  background: #f16059;
+  padding: 0 10%;
+  height: 10rem;
+}
